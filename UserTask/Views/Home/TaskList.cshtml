@@ -1,0 +1,16 @@
+﻿
+@using UserTask.Models;
+@{
+    User user = new User();
+    user.RetrieveUserByGUID(Session["User"].ToString());
+}
+
+@{
+    ViewBag.Title = "TaskList";
+}
+
+<h2>TaskList</h2>
+<br /><br />
+<div id="root"></div>
+
+@Scripts.Render("~/bundles/ReactComponent")

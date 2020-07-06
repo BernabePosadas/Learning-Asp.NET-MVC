@@ -1,0 +1,11 @@
+﻿@using UserTask.Models;
+@{
+    User user = new User();
+    user.RetrieveUserByGUID(Session["User"].ToString());
+}
+
+@{
+    ViewBag.Title = "Home";
+}
+
+<h2> Welcome @user.FirstName  </h2>

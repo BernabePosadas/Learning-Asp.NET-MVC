@@ -1,0 +1,68 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color:#d2d6de; 
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.login-box, .register-box {
+    width: 360px;
+    margin: 7% auto;
+}
+.login-text, .register-text {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+.login-box-body, .register-box-body {
+    background: #fff;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+}
+
+.callout{
+    margin-top : 50px;
+    margin-left : 20px;
+    margin-right : 20px;
+    padding : 20px, 20px, 20px, 20px;
+    color :#fff;
+    text-align : center;
+}
+.callout p 
+{
+   padding-top : 10px;
+   padding-bottom : 10px;
+}
+.callout-default{
+    background-color : #3a6df3;
+}
+.callout-error{
+    background-color : #ff0000;
+}
+.display-none{
+    display: none;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom : 5px;
+}
+td {
+    background-color: #fff;
+    border-right: 1px solid black;
+}
+.create-task-form {
+    margin-bottom : 30px;
+}
